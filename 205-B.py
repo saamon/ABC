@@ -1,6 +1,11 @@
-N = int(input())
-A = list(map(int, input().split()))
-A.sort()
-B = list(range(1, N + 1))  # 1からNまでのリストを生成
+n = int(input())
+a = list(map(int, input().split()))
+a.sort()
+a2 = []
 
-print("Yes" if A == B else "No")
+ans = "No"
+for i in range(1, n + 1):
+    a2.append(i)
+    if a == a2:
+        ans = "Yes"
+print(ans)
