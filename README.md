@@ -1,2 +1,2 @@
 # ABC
-Atcoder(Python)
+Python 🐍
