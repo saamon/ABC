@@ -1,4 +1,5 @@
 # abc133
+# 2次元配列
 import math
 
 n, d = map(int, input().split())
